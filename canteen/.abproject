@@ -1,0 +1,45 @@
+{
+  "ProjectName": "canteen",
+  "ProjectGuid": "a11e5cec-dcea-4e2d-bb31-593467d750d8",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.canteen",
+  "DisplayName": "canteen",
+  "Author": "",
+  "Description": "canteen",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{e064d17a-3718-47e4-8f9a-02d829de1d7e}",
+  "WP8ProductID": "{fea3c0ae-c691-494c-ab15-114561ede494}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.canteen",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
