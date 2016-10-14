@@ -1,0 +1,276 @@
+.bar.bar-purple {
+  border-color: #2856b6;
+  background-color: #2856b6;
+  background-image: linear-gradient(0deg, #2856b6, #2856b6 50%, transparent 50%);
+  color: #fff; 
+}
+.bar.bar-purple .title {
+  color: #fff; 
+}
+.bar.bar-purple.bar-footer {
+  background-image: linear-gradient(180deg, #2856b6, #2856b6 50%, transparent 50%); 
+}
+
+.tabs-purple > .tabs,
+.tabs.tabs-purple {
+  border-color:  #2856b6;
+  background-color: #2856b6;
+  background-image: linear-gradient(0deg, #2856b6, #2856b6 50%, transparent 50%);
+  color: #fff; 
+}
+.tabs-purple > .tabs .tab-item .badge,
+.tabs.tabs-purple .tab-item .badge {
+  background-color: #fff;
+  color: #2856b6;
+}
+
+.tabbed-slidebox .slider {
+  height: 100%;
+}
+.tabbed-slidebox.btm .slider {
+  margin-bottom: -50px;
+}
+.tabbed-slidebox .slider-slides {
+  width: 100%;
+}
+
+.tabbed-slidebox .slider-slide {
+  padding-top: 0px;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  font-weight: 300;
+  /*background-color: #0398dc;*/
+}
+
+.tabbed-slidebox .tsb-icons {
+
+  text-align: center;
+  height:50px;
+  margin: 10px 10px;
+  position: relative;
+  background-color:#fff;
+}
+
+.tabbed-slidebox .tsb-ic-wrp {
+
+  display: flex;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.3s; /* For Safari 3.1 to 6.0 */
+  -webkit-transform:translate3d(0,0,0);
+}
+
+.tabbed-slidebox .tsb-icons a {
+
+  display: inline-block;
+  width: 54px;
+  font-size: 2.5em;
+  color: rgba(0, 0, 0, 0.3);
+  -webkit-transform:translate3d(0,8px,0);
+}
+
+.tabbed-slidebox .tsb-icons img {
+ max-width: 40px;
+ max-height: 40px;
+ width: 100%;
+ height: 100%;
+ border-radius: 50%;
+ /*border:2px solid purple;*/
+ display: inline-block;
+ /*width: 54px;*/
+ /*font-size: 2.5em;*/
+ /*color: rgba(0, 0, 0, 0.3);*/
+ -webkit-transform:translate3d(0,8px,0);
+}
+
+.tabbed-slidebox .tsb-icons a.active {
+  color: red;
+  font-size: 3.5em;
+  -webkit-transform:translate3d(0,0,0);
+}
+
+.tabbed-slidebox .tabbed-slidebox {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+/*
+.tabbed-slidebox .tsb-icons:after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 1.4em 1.4em 1.4em;
+    border-color: transparent transparent transparent transparent;
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -14px;
+    }*/
+    .tsb-hscroll.scroll-view{
+      white-space: nowrap;
+      margin:0 auto;
+    }
+    .tsb-hscroll.scroll-view .scroll-bar{
+      visibility:hidden;
+    }
+    .tsb-hscroll.scroll-view .scroll.onscroll{
+      -webkit-transition: -webkit-transform 0.3s; /* For Safari 3.1 to 6.0 */
+    }
+
+    .tabbed-slidebox .tsb-icons .scroll a{
+      width:auto;
+      font-size: 1.5em;
+      line-height: 1.5em;
+      text-decoration: none;
+      margin: 0 15px;
+      border-bottom: 3px solid transparent;
+    }
+    .tabbed-slidebox .tsb-icons .scroll a.active {
+      font-size: 1.8em;
+      border-bottom: 3px solid #ccc;
+    }
+
+    
+    /* PROGRESS BAR CSS*/
+
+    .progress-wrapper{
+      position: relative;
+    }
+
+    .progress-wrapper .text1{
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      text-align: center;
+      width: 100%;
+      z-index: 1;
+      color:red;
+    }
+
+    .disp{
+      margin-top: 10px;
+    }
+
+    .inputfield{
+      border: 2px solid grey;
+      width:100%;
+    }
+
+    .loginback {
+      background: url(../../assets/images/loginbackground.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+
+    }
+
+    
+    .cardbackground{
+      background-color: #009688;
+    }
+
+    .block{
+      margin:10px;
+      height:70%;
+    }
+
+    .goalicon{
+      height:30px;
+      width:30px;
+    }
+
+
+ /*   .vital-container {
+     display: -webkit-flex;
+     -webkit-flex-direction: column;
+     height: 100%;
+     }*/
+
+     /*-------------------TO BE CHANGED----------*/
+     /* Priyam Leaderboard CSS*/
+     .myImg{
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+    }
+
+    .background{
+      background-color: #009688;
+    }
+
+    .LBbackground{
+      background-color: #2856b6;
+    }
+
+    .myScore{
+      background-color: #B7B8B6;
+    }
+    .myItem{
+      padding: 0 !important;
+      padding-left: 5px !important;
+      margin: 0 !important;
+      border-color: #C4DFE6;
+    }
+
+    /*------------------------------------------*/
+
+
+    /* Activites animation Abejith*/
+    .anim.ng-enter {
+      -webkit-animation: zoomInDown 1s;
+      animation: zoomInDown 1s;
+    }
+    .anim.ng-enter-stagger {
+      -webkit-animation-delay:200ms;
+      animation-delay:200ms;
+
+      -webkit-animation-duration:0;
+      animation-duration:0;
+    }
+
+
+    /* Button custom*/
+
+
+    .button.button-custom {
+      border-color: transparent;
+      background-color: #009688;
+      color: #fff; 
+    }
+
+    .button.button-custom:hover {
+      color: #fff;
+      text-decoration: none; 
+    }
+    .button.button-custom.active, .button.button-custom.activated {
+      border-color: #00796B;
+      background-color: #00796B; 
+    }
+    .button.button-custom.button-clear {
+      border-color: transparent;
+      background: none;
+      box-shadow: none;
+      color: #009688; 
+    }
+    .button.button-custom.button-icon {
+      border-color: transparent;
+      background: none; 
+    }
+    .button.button-custom.button-outline {
+      border-color: #009688;
+      background: transparent;
+      color: #009688; 
+    }
+    .button.button-custom.button-outline.active, .button.button-custom.button-outline.activated {
+      background-color: #00796B;
+      box-shadow: none;
+      color: #fff; 
+    }

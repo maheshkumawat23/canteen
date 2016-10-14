@@ -1,0 +1,36 @@
+<ion-nav-view>
+    <ion-header-bar class="bar-positive">
+       <img src="img/logo.png" width="40px" height="40px"> <h1 align="center" class="title">Canteen FeedBack</h1>
+		
+      </ion-header-bar>
+      <ion-content class="has-header" scroll="false" >
+          <h3> Rate us on the following </h3>
+  <ul class="list ">
+    <li class="item ">
+     Taste: <rating  class="ratingLayout" align="center" ng-model="rating.taste" max="rating.max"></rating>
+    </li>
+    <li class="item">
+     Service: <rating class="ratingLayout" align="center" ng-model="rating.service" max="rating.max"></rating>
+    </li>
+    <li class="item">
+     Hygine: <rating class="ratingLayout" align="center" ng-model="rating.hygine" max="rating.max"></rating>
+    </li>
+    <li class="item">
+     Veriety:<rating class="ratingLayout" align="center" ng-model="rating.veriety" max="rating.max"></rating>
+    </li>
+    <li class="item">
+     Quality: <rating class="ratingLayout"align="center" ng-model="rating.quality" max="rating.max"></rating>
+    </li>
+    <li class="item">
+     Quantity: <rating class="ratingLayout" align="center" ng-model="rating.quantity" max="rating.max"></rating>
+    </li>
+    <li class="item item-input">
+     
+    <input type="text" placeholder="Comments" ng-model="rating.comments">
+  
+    </li>
+
+</ul>
+  <button class="button button-block button-calm" ng-click="showAlert()">Submit</button>
+      </ion-content>
+    </ion-nav-view>
