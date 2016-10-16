@@ -35,6 +35,14 @@
       function onError() {
         console.log('error');
       }
+      if(vm.rating.taste ===0 || vm.rating.service ===0 || vm.rating.hygine ===0||vm.rating.veriety===0||vm.rating.quality===0||vm.rating.quantity==0){
+        var alertPopup = $ionicPopup.alert({
+        title: 'Alert',
+        template: 'Please give feedback to all fields !!!'
+      });
+      }
+      else
+      {
       console.log(vm.rating.comments);
       var d = new Date();
       var submitDate = d.toISOString();
@@ -63,7 +71,7 @@
         localStorage.clear();
         $state.go('login');
       });
-    };
-
+    }
+   };
   }
 })();

@@ -1,4 +1,4 @@
-app.controller('adminController', function ($scope, $http, $ionicPopup) {
+app.controller('adminController', function ($scope, $http, $ionicPopup, $ionicLoading,$state) {
 
   $scope.feedbackData = [];
 
@@ -34,6 +34,9 @@ app.controller('adminController', function ($scope, $http, $ionicPopup) {
     });
   });
   //'https://serene-tor-83162.herokuapp.com/api/posts'
+  $scope.Logout = function(){
+    $state.go('login');
+  }
   $scope.sync = function () {
     console.log('clicking sync');
     if ($scope.feedbackData.length === 0) {
@@ -49,11 +52,21 @@ app.controller('adminController', function ($scope, $http, $ionicPopup) {
     else {
       $http.post('https://serene-tor-83162.herokuapp.com/api/posts', $scope.feedbackData).then(successCallback, errorCallback);
       console.log('i am in the post');
+      $ionicLoading.show({
+        template: 'Syncing...',
+        content: 'Loading',
+        animation: 'fade-out',
+        showBackdrop: true,
+        maxWidth: 200,
+        showDelay: 0
+      });
     }
     function successCallback(data) {
       console.log('success');
       function onDeleteSuccess() {
         console.log('Deleted Succesfully');
+        $ionicLoading.hide();
+        $scope.feedbackData.length = 0;
         var alertPopup = $ionicPopup.alert({
           title: 'Synced',
           template: 'Your data synced to server and deleted from the device'
