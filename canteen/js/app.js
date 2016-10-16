@@ -1,1 +1,1 @@
-var app =angular.module("starter", ['ionic','ngCordova','ionic.rating']);
+var app =angular.module("app", ['ionic','ngCordova','ionic.rating']);

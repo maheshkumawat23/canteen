@@ -33,13 +33,13 @@ $stateProvider
     cache: false,
     url: '/login',
     templateUrl: 'app/login/login.html',
-    controller:'loginController'
+    controller:'loginController as login'
   })
   .state('home',{
     cache:false,
     url:'/home',
     templateUrl:'app/home/home.html',
-    controller:'homeController'
+    controller:'homeController as home'
   })
   .state('admin',{
     cache:false,

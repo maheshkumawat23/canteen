@@ -7,30 +7,30 @@
           <h3> Rate us on the following </h3>
   <ul class="list ">
     <li class="item ">
-     Taste: <rating  class="ratingLayout" align="center" ng-model="rating.taste" max="rating.max"></rating>
+     Taste: <rating  class="ratingLayout" align="center" ng-model="home.rating.taste" max="home.rating.max"></rating>
     </li>
     <li class="item">
-     Service: <rating class="ratingLayout" align="center" ng-model="rating.service" max="rating.max"></rating>
+     Service: <rating class="ratingLayout" align="center" ng-model="home.rating.service" max="home.rating.max"></rating>
     </li>
     <li class="item">
-     Hygine: <rating class="ratingLayout" align="center" ng-model="rating.hygine" max="rating.max"></rating>
+     Hygine: <rating class="ratingLayout" align="center" ng-model="home.rating.hygine" max="home.rating.max"></rating>
     </li>
     <li class="item">
-     Veriety:<rating class="ratingLayout" align="center" ng-model="rating.veriety" max="rating.max"></rating>
+     Veriety:<rating class="ratingLayout" align="center" ng-model="home.rating.veriety" max="home.rating.max"></rating>
     </li>
     <li class="item">
-     Quality: <rating class="ratingLayout"align="center" ng-model="rating.quality" max="rating.max"></rating>
+     Quality: <rating class="ratingLayout"align="center" ng-model="home.rating.quality" max="home.rating.max"></rating>
     </li>
     <li class="item">
-     Quantity: <rating class="ratingLayout" align="center" ng-model="rating.quantity" max="rating.max"></rating>
+     Quantity: <rating class="ratingLayout" align="center" ng-model="home.rating.quantity" max="home.rating.max"></rating>
     </li>
     <li class="item item-input">
      
-    <input type="text" placeholder="Comments" ng-model="rating.comments">
+    <input type="text" placeholder="Comments" ng-model="home.rating.comments">
   
     </li>
 
 </ul>
-  <button class="button button-block button-calm" ng-click="showAlert()">Submit</button>
+  <button class="button button-block button-calm" ng-click="home.showAlert()" ng-disabled="">Submit</button>
       </ion-content>
     </ion-nav-view>
